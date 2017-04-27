@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="625.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView layoutX="386.0" layoutY="124.0" prefHeight="410.0" prefWidth="202.0">
+        <columns>
+          <TableColumn prefWidth="115.0" text="Nama Makanan" />
+          <TableColumn prefWidth="84.0" text="Harga" />
+        </columns>
+      </TableView>
+      <Label layoutX="435.0" layoutY="108.0" text="List Pesanan Anda :" />
+      <Label layoutX="388.0" layoutY="539.0" prefHeight="17.0" prefWidth="75.0" text="Total Harga :" />
+      <TextField layoutX="458.0" layoutY="537.0" prefHeight="25.0" prefWidth="130.0" />
+   </children>
+</AnchorPane>
